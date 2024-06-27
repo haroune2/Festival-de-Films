@@ -1,0 +1,6 @@
+@haroune2 ➜ /workspaces/app-training-angular/demo (main) $ lsof -i :8080
+COMMAND   PID      USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+java    34887 codespace   93u  IPv6 614973      0t0  TCP *:http-alt (LISTEN)
+@haroune2 ➜ /workspaces/app-training-angular/demo (main) $ kill -9 34887
+
+sudo /etc/init.d/mysql restart

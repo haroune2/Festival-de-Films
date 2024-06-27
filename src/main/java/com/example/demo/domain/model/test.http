@@ -1,0 +1,74 @@
+GET https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+
+
+### Add Film 1### Ajouter 7 Samouraïs
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "7 Samouraïs",
+  "director": "Akira Kurosawa",
+  "date": "1954-04-26",
+  "time": "207 min",
+  "id": 1
+}
+
+### Ajouter Parasite
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "Parasite",
+  "director": "Bong Joon-ho",
+  "date": "2019-05-21",
+  "time": "132 min",
+  "id": 2
+}
+
+### Ajouter Les dieux sont tombés sur la tête
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "Les dieux sont tombés sur la tête",
+  "director": "Jamie Uys",
+  "date": "1980-09-10",
+  "time": "109 min",
+  "id": 3
+}
+
+### Ajouter Which way Africa
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "Which way Africa",
+  "director": "Kevin Harris",
+  "date": "1978-04-15",
+  "time": "84 min",
+  "id": 4
+}
+
+### Ajouter 2001 L'odyssée de l'espace
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "2001 L'odyssée de l'espace",
+  "director": "Stanley Kubrick",
+  "date": "1968-04-02",
+  "time": "149 min",
+  "id": 5
+}
+
+### Ajouter Once upon a time in Hollywood
+POST https://didactic-space-carnival-9vvjwgrpv6jcrw4-8080.app.github.dev/films
+Content-Type: application/json
+
+{
+  "title": "Once upon a time in Hollywood",
+  "director": "Quentin Tarantino",
+  "date": "2019-07-26",
+  "time": "161 min",
+  "id": 6
+}

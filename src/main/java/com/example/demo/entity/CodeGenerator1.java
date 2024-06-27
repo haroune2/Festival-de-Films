@@ -1,4 +1,4 @@
-package com.example.demo.domain.model;
+package com.example.demo.entity;
 
 
 import java.io.File;
@@ -26,7 +26,7 @@ public class CodeGenerator1 {
         String basePackage = "com.example.demo";
 
         // Liste des noms de classe à générer
-        List<String> classNames = Arrays.asList("Etudiant", "Skil", "Room", "Adress");
+        List<String> classNames = Arrays.asList("Film", "Reservation");
 
         // Générez les classes de contrôleur, service, DTO, repository et exception
         generateClasses(classNames, basePackage, basePackageModel);

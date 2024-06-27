@@ -1,13 +1,6 @@
-package com.example.demo.domain.model;
+package com.example.demo.domain.dto;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
+// Ajoutez les champs et méthodes nécessaires pour le DTO
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -21,11 +14,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-
-@Entity
-public class Film {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class FilmDTO {
     private Long id;
 
     private String title;
